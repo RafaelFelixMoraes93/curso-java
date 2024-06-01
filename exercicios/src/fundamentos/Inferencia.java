@@ -21,7 +21,7 @@ public class Inferencia {
 		var e = 123.45;
 		System.out.println(e);
 		
-		var f = 12; //Inteiro.
+		// var f = 12; //Inteiro.
 		// f = 12.01; // Não é possivel, pois é inteiro.
 	}
 
