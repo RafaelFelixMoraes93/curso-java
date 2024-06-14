@@ -15,6 +15,7 @@ public class DesafioAritmetico {
 		 *  resultado
 		 */ 
 		
+		// Todos os números podem ser substituidos por variáveis.
 		double parteUm = 3+2 * 6;
 		parteUm = Math.pow(parteUm, 2);
 		parteUm = parteUm / 3*2;
