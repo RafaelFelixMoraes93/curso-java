@@ -24,6 +24,7 @@ public class DesafioLogico {
 			trabalho1 = false;
 		}
 		
+		
 		System.out.println("Trabalho da quinta, igite 1 para SIM e 2 para NÃO: ");
 		int trabalhoQuinta = entrada.nextInt();
 		if(trabalhoQuinta == 1) {
@@ -32,15 +33,14 @@ public class DesafioLogico {
 			trabalho2 = false;
 		}
 		
+		
 		if(trabalho1 && trabalho2 == true) {
 			System.out.println("Familia irá comprar a TV de 50 e irá tomar sorvete no shopping.");
 		}else if(trabalho1 || trabalho2 == true) {
 			System.out.println("Familia irá comprar a TV de 32 e irá tomar sorvete no shopping.");
 		}else if(trabalho1 == false && trabalho2 == false){
 			System.out.println("Fammilia ficará em casa.");
-		}
-			
-		
+		}		
 		
 		entrada.close();
 	}
