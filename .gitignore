@@ -1,1 +1,7 @@
 /.metadata/
+.metadata/
+*.log
+*.index
+*.dat
+*.xml
+*.class
